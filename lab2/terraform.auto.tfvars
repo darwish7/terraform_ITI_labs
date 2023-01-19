@@ -1,0 +1,12 @@
+vpc_cidr_block  = "10.0.0.0/16"
+vpc_name = "terrafrom_vpc"
+subnet_cidr_block = ["10.0.0.0/24","10.0.1.0/24"]
+subnet_name = ["public","private"]
+igw_name = "terraform_igw"
+cidr_block_public_source = "0.0.0.0/0"
+route_table_name = "public"
+natgw_name = "terrafrom_nat"
+ami_image = "ami-0ab0629dba5ae551d"
+instance_type = "t2.micro"
+public_ec2_name = "public_machine"
+private_ec2_name = "private_machine"
